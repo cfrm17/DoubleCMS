@@ -1,6 +1,6 @@
 # Double CMS
 
-A double CMS derivatives represents a European type derivatives whose matured payoff depends on two CMS rates.1 For most important products in the fixed income market, the payoff function can be an affine-linear with respect to two CMS rates and may be possibly capped and/or floored. Another typical derivative is accumulator (see https://finpricing.com/lib/FxAccumulator.html)
+A double CMS derivatives represents a European type derivatives whose matured payoff depends on two CMS rates.1 For most important products in the fixed income market, the payoff function can be an affine-linear with respect to two CMS rates and may be possibly capped and/or floored. Another typical derivative is accumulator.
 
 There are three basic types of payoffs: (a) an affine-linear on two CMS rates, (b) a call on a linear combination of the two and (c) a put on the combination. For the first type payoff (a), the present value can be calculated by using single CMS cap/floor model. 
 
@@ -23,4 +23,8 @@ The expectation of CMS average/spread call-payoff is calculated. In the function
 For a given swaption market, all SABRN-model parameters are calibrated to the market. Hence, for a given option tenor, a pair of CMS rates and the current expectations of the two CMS rates together with the two sets of corresponding SABRN-model parameters, then the market implied PDFs/CDFs of the two CMS rates are also completely determined.
 
 
+References:
 
+https://finpricing.com/lib/FxAccumulator.html
+
+https://derivatives.hcommons.org/fixed-income-derivatives/
